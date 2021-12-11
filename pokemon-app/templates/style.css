@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-container {
+  width: fit-content;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.card-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at 50% 0%, orange 36%, #fffff6 36%);
+  width: 100%;
+  padding: 10px 16px 30px 16px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.poke-owned {
+  width: fit-content;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 0 6px;
+  border-radius: 14px;
+  align-self: flex-end;
+}
+
+.total-owned {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 16px;
+}
+
+.poke-img {
+  width: 130px;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.poke-name {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}

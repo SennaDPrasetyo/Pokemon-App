@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.modal-content {
+  margin: auto !important;
+  font-family: "Inter", sans-serif;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-header {
+  padding: 20px 3px !important;
+  color: #015352 !important;
+  font-size: 18px !important;
+  line-height: 22px;
+  letter-spacing: 0.5px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-subtitle {
+  color: #015352 !important;
+  font-size: 16px !important;
+  line-height: 20px;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 0.5rem;
+}
+
+.modal-subtitle-success {
+  color: #015352 !important;
+  font-size: 16px !important;
+  line-height: 20px;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 0.5rem;
+}
+
+.modal-subtitle-success::after {
+  content: "*";
+  color: red;
+}
+
+.modal-input {
+  color: #015352 !important;
+  font-size: 16px !important;
+  line-height: 20px;
+  letter-spacing: 0.5px !important;
+}
+
+.modal-btn {
+  margin-top: 1rem;
+  background: #015352 !important;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  color: #fafafa;
+  font-style: normal;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  font-weight: 300 !important;
+}
