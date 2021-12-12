@@ -104,7 +104,6 @@ const DetailPage = () => {
             onClose={() => setFailModal(false)}
             setFailModal={setFailModal}
           />
-          ;
           <div className={styles["detail-page-type"]}>
             {singlePokemon.types &&
               singlePokemon.types.map((each) => (
