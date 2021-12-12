@@ -63,12 +63,13 @@
 }
 
 .poke-name {
-  font-family: "Pokemon Solid", sans-serif;
+  letter-spacing: 1px;
+  font-family: "Inter", sans-serif;
   -webkit-text-fill-color: #ffcb04;
-  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #2a3a6e;
   text-align: center;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 1rem;

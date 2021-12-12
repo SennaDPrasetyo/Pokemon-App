@@ -61,12 +61,13 @@
 }
 
 .poke-name {
-  font-family: "Pokemon Solid", sans-serif;
+  letter-spacing: 1px;
+  font-family: "Inter", sans-serif;
   -webkit-text-fill-color: #ffcb04;
-  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #2a3a6e;
   text-align: center;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 18px;
   line-height: 22px;
 }
@@ -108,13 +109,13 @@
 
   .my-pokemon-title {
     font-size: 16px;
-    font-weight: 400;
-    font-family: "Pokemon Solid", sans-serif;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
     line-height: 15px;
     margin-bottom: 0.9rem;
     margin-left: 0.5rem;
     -webkit-text-fill-color: #ffcb04;
-    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #2a3a6e;
   }
 }
