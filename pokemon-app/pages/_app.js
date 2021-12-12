@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>Pokemon - Hunter</title>
         <link
           rel="shortcut icon"
           href="https://ik.imagekit.io/gdx8okwg6gt/pokeball-png-45331_3aaPyYx66dF.png?updatedAt=1639143312370"
